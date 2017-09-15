@@ -4,7 +4,8 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM debian:jessie
+#FROM debian:jessie
+FROM resin/rpi-raspbian:jessie
 
 # persistent / runtime deps
 ENV PHPIZE_DEPS \
